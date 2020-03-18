@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>ADTS</title>
+		<meta name="description" content="Multi-Level Push Menu: Off-screen navigation with multiple levels" />
+		<meta name="keywords" content="multi-level, menu, navigation, off-canvas, off-screen, mobile, levels, nested, transform" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="shortcut icon" href="imgs/RCBLogo.png">
+
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Push Wrapper -->
+			<div class="mp-pusher" id="mp-pusher">
+
+				<!-- mp-menu -->
+				<nav id="mp-menu" class="mp-menu">
+					<div class="mp-level">
+						<a href="#" class="main-logo"><img src="imgs/RCBLogo.png" style="width:120px; height:100px; align-content: center;"></a>
+						<h2>Automated Degrader Tracking System</h2>
+						<ul>
+							<li><a><i class="icon material-icons" href="#">home</i>Home</a></li>
+							<li class="icon">
+								<a class="icon" href="#"><i class="material-icons">keyboard_arrow_left school</i>Training</a>
+								
+								<div class="mp-level">
+									<h2 class="icon"><i class="material-icons">school</i>Training</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon">
+											<a class="icon" href="#"><i class="material-icons">keyboard_arrow_left laptop</i>Classroom Learning</a>
+											<div class="mp-level">
+												<h2>Classroom Learning</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">NAVAIR-U Course</a></li>
+													<li><a href="#">Request Training</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon">
+											<a class="icon" href="#"><i class="material-icons">keyboard_arrow_left folder</i>Documentation</a>
+											<div class="mp-level">
+												<h2>Documentation</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li><a href="#">Introduction to ADTS</a></li>
+													<li><a href="#">Using the Forms</a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="icon">
+								<a class="icon" href="#"><i class="material-icons">keyboard_arrow_left dashboard</i>Metrics</a>
+								<div class="mp-level">
+									<h2 class="icon"><i class="material-icons">dashboard</i>Metrics</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li><a href="#">Dashboards</a></li>
+										<li><a href="#">Reports</a></li>
+										<li><a href="#">Views</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="icon ">
+								<a class="icon" href="#"><i class="material-icons">keyboard_arrow_left flight_takeoff</i>PEO</a>
+								<div class="mp-level">
+									<h2 class="icon">PEO</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li class="icon ">
+											<a class="icon" href="#"><i class="material-icons">keyboard_arrow_left</i>Executive</a>
+											<div class="mp-level">
+												<h2 class="icon">Executive</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>Themes</a>
+														<div class="mp-level">
+															<h2 class="icon ">Themes</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Boeing Data Gaps</a></li>
+																<li><a href="#">Centralized ICRL</a></li>
+																<li><a href="#">Corrosion</a></li>
+																<li><a href="#">Data Analytics</a></li>
+																<li><a href="#">Data Gaps</a></li>
+																<li><a href="#">Data Integrity</a></li>
+																<li><a href="#">Demand Forecasting</a></li>
+																<li><a href="#">DoD Ordering Policy</a></li>
+																<li><a href="#">Embedded COMSEC</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>Action Tracker</a>
+														<div class="mp-level">
+															<h2 class="icon ">Action Tracker</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Reporting</a></li>
+																<li><a href="#">Forms</a></li>
+															</ul>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon ">
+											<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PEO(A)</a>
+											<div class="mp-level">
+												<h2 class="icon ">PEO(A)</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-207</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-207</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-261</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-261</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-271</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-271</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-275</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-275</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-276</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-276</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-290</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-290</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-299</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-299</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon ">
+											<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PEO(CS)</a>
+											<div class="mp-level">
+												<h2 class="icon ">PEO(CS)</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-209</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-209</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</li>
+
+										<li class="icon ">
+											<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PEO(T)</a>
+											<div class="mp-level">
+												<h2 class="icon ">PEO(T)</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-231</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-231</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-257</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-257</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-265</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-265</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-272</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-272</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="icon ">
+											<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PEO(UW)</a>
+											<div class="mp-level">
+												<h2 class="icon ">PEO(CS)</h2>
+												<a class="mp-back" href="#">back</a>
+												<ul>
+													<li class="icon ">
+														<a class="icon " href="#"><i class="material-icons">keyboard_arrow_left</i>PMA-2XX</a>
+														<div class="mp-level">
+															<h2 class="icon ">PMA-2XX</h2>
+															<a class="mp-back" href="#">back</a>
+															<ul>
+																<li><a href="#">Home</a></li>
+																<li><a href="#">Metrics</a></li>
+																<li><a href="#">Forms</a></li>
+																<li><a href="#">Documents</a></li>
+																<li><a href="#">Reporting</a></li>
+															</ul>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							
+							<li class="icon ">
+								<a class="icon" href="#"><i class="material-icons">keyboard_arrow_left link </i>Resource Links</a>
+								<div class="mp-level">
+									<h2 class="icon">Resource Links</h2>
+									<a class="mp-back" href="#">back</a>
+									<ul>
+										<li><a href="#">Tableau</a></li>
+										<li><a href="#">Maintenance Planning</a></li>
+										<li><a href="#">Qlik</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a class="icon" href="#"><i class="material-icons">record_voice_over</i>Feedback</a></li>
+						</ul>
+							
+					</div>
+				</nav> 
+				<!-- /mp-menu -->
+
+				<div class="scroller"><!-- this is for emulating position fixed of the nav -->
+					<div class="scroller-inner">
+						<!-- Top Navigation -->
+						<div class="codrops-top">
+							<a href="#" id="trigger" class="#"><i class="material-icons">menu</i></a>
+							<span class="right"><a class="codrops-icon" href="#"><span></span><i class="material-icons">person</i></a></span></a></span>
+							<span class="right"><a class="codrops-icon" href="#"><span></span><i class="material-icons">notifications</i></a></span></a></span>
+							<span class="right"><a class="codrops-icon" href="#"><span><i class="material-icons">build</i></a></span></a></span>
+						</div>
+						<header class="codrops-header">
+							<h1>NAE View<span>Demo</span></h1>
+						</header>
+						<div class="content clearfix">
+							<div class="block block-40 clearfix">
+								
+								<nav class="codrops-demos">
+									<a class="current-demo" href="#">Top Level Metrics placeholder</a>
+								</nav>
+							</div>
+							<div class="block block-60">
+								<div>
+									<p><strong>RCB News</strong></p>
+									<p>News Section...</p>
+									<p>Blah</p>
+								</div>
+								<div>
+									<p><strong>RCB Master Calendar</strong></p>
+									<p>Calendar blah</p>
+								</div>
+
+							</div>
+
+							<div class="info">
+								<p>Helpful Links</p>
+								<p><a href="#">Tableau Link</a></p>
+								<p><a href="#">Another Tableau Link</a></p>
+								<p><a href="#">Another link to somewhere else</a></p>
+							</div>
+						</div>
+					</div><!-- /scroller-inner -->
+				</div><!-- /scroller -->
+
+			</div><!-- /pusher -->
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/mlpushmenu.js"></script>
+		<script>
+			new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ), {
+				type : 'cover'
+			} );
+		</script>
+	</body>
+</html>
